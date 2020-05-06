@@ -1,0 +1,42 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next -- -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yaireo/tagify": "^3.7.2",
+    "@zeit/next-css": "^1.0.1",
+    "contentful": "^7.8.2",
+    "d3": "^5.16.0",
+    "firebase": "^7.14.1",
+    "google-protobuf": "^3.12.0-rc.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "lost": "8.2.0",
+    "next": "^9.0.2",
+    "postcss-nested": "2.1.2",
+    "react": "^16.8.6",
+    "react-d3-library": "^1.1.8",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.6.0",
+    "styled-jsx-plugin-postcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "postcss-loader": "^3.0.0"
+  },
+  "postcss": {
+    "plugins": {
+      "lost": {},
+      "postcss-nested": {}
+    }
+  }
+}
